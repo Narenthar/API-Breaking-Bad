@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+  background-image: url('./images/WallpaperDog-10814023.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.button {
+  margin-left: 46%;
+  font-family: 'Comic Neue', cursive;
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 70;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  /* display: inline-block; */
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  color: rgb(245, 248, 247) !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: #404040;
+  /* -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57); */
+  transition: all 0.3s ease 0s;
+}
+
+.heading {
+  font-family: 'Comic Neue', cursive;
+  font-size: 50px;
+  color: aliceblue;
+  /* margin-left: 100px; */
+}
+
+.quotearea {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  margin: 10vh auto 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.34) 50%,
+    rgba(0, 0, 0, 0.34) 50%
+  );
+  border-radius: 10px;
+  padding-bottom: 6px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: transform 0.3s;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote {
+  font-family: 'Comic Neue', cursive;
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 0px 10px 10px blanchedalmond;
+}
+#display {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.author {
+  font-family: 'Comic Neue', cursive;
+  text-align: right;
+  color: aliceblue;
+  text-shadow: 0px 10px 10px blanchedalmond;
+}
+@media only screen and (max-width: 576px) {
+  body {
+    background-image: url('./images/WallpaperDog-10814023.jpg');
+    background-position: 33% 75%;
+  }
+  .heading {
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: aliceblue;
+    /* margin-left: 100px; */
+  }
+  .button {
+    margin-left: 35%;
+  }
+}
